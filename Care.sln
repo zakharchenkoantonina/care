@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Care.Web", "Care\Care.Web.csproj", "{D6EF7D7B-E81B-46F8-BFA9-245BBE11E9A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Care.Tests", "Care.Tests\Care.Tests.csproj", "{2B91120B-867C-4EB7-AB72-091DA032087F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Care.Domain", "Care.Model\Care.Domain.csproj", "{82081BCD-6E19-4B12-9E94-3B1BFA6842AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Care.Data", "Care.Data\Care.Data.csproj", "{F231DD38-9745-4243-9A41-AEE284658807}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4091F931-2522-4A60-A9D3-A3B3B7BFC610}"
+	ProjectSection(SolutionItems) = preProject
+		TODOReminders.txt = TODOReminders.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Care.Ioc", "Care.Ioc\Care.Ioc.csproj", "{BAF893F0-46D7-4911-8A26-D06E006EEBED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6EF7D7B-E81B-46F8-BFA9-245BBE11E9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6EF7D7B-E81B-46F8-BFA9-245BBE11E9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6EF7D7B-E81B-46F8-BFA9-245BBE11E9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6EF7D7B-E81B-46F8-BFA9-245BBE11E9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B91120B-867C-4EB7-AB72-091DA032087F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B91120B-867C-4EB7-AB72-091DA032087F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B91120B-867C-4EB7-AB72-091DA032087F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B91120B-867C-4EB7-AB72-091DA032087F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82081BCD-6E19-4B12-9E94-3B1BFA6842AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82081BCD-6E19-4B12-9E94-3B1BFA6842AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82081BCD-6E19-4B12-9E94-3B1BFA6842AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82081BCD-6E19-4B12-9E94-3B1BFA6842AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F231DD38-9745-4243-9A41-AEE284658807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F231DD38-9745-4243-9A41-AEE284658807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F231DD38-9745-4243-9A41-AEE284658807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F231DD38-9745-4243-9A41-AEE284658807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF893F0-46D7-4911-8A26-D06E006EEBED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF893F0-46D7-4911-8A26-D06E006EEBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF893F0-46D7-4911-8A26-D06E006EEBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF893F0-46D7-4911-8A26-D06E006EEBED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
